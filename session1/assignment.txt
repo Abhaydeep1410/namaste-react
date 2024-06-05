@@ -1,0 +1,51 @@
+Chapter 01 - Inception
+
+Theory -
+● What is Emmet?
+Ans- plugin for web development.  reduce time in html,css  (already come with vscode)
+
+● Difference between a Library and Framework?
+Library is predefined code that we can use in our code  , we decide call flow
+Framework is a software/application to built a particular application easily , flow control decided by framework
+can also provide security, scalability use
+
+● What is CDN? Why do we use it?
+content delivery network , ex cloudfare
+A Content Delivery Network (CDN) is a network of interconnected servers that speeds up webpage loading for data-heavy applications.
+It can also stand for Content Distribution Network. When a user visits a website, data from that website’s server has to travel across the internet to reach the user’s computer. 
+A CDN reduces this distance by caching content at a network location closest to the user, improving web performance by reducing the time needed to send content and rich media to users.
+improves security(as our server will not directly accessed), improves performance, speed
+
+
+
+● Why is React known as React?
+React, the JavaScript library for building user interfaces, is called React because of the way it handles changes in the user interface. The name "React" comes from the idea of "reactive programming," where components react to changes in data and automatically update the user interface to reflect those changes.
+In React, the user interface is divided into components, and each component can be thought of as a self-contained unit that reacts to changes in its state or props. When the state or props of a component change, React efficiently re-renders only the components that are affected by the change, rather than re-rendering the entire page.
+This reactive approach to building user interfaces is what sets React apart from traditional approaches and makes it a popular choice for building dynamic and interactive web applications.
+
+
+● What is crossorigin in script tag?
+Normal script elements pass minimal information to the window.onerror for scripts which do not pass the standard CORS checks. To allow error logging for sites which use a separate domain for static media, use this attribute.
+
+● What is diference between React and ReactDOM
+● What is difference between react.development.js and react.production.js files via CDN?
+● What is async and defer? - see my Youtube video ;)
+Coding -
+● Set up all the tools in your laptop
+○ VS Code
+○ Chrome
+○ Extensions of Chrome
+● Create a new Git repo
+● Build your first Hello World program using,
+○ Using just HTML
+○ Using JS to manipulate the DOM
+○ Using React
+■ use CDN Links
+■ Create an Element
+■ Create nested React Elements
+■ Use root.render
+● Push code to Github (Theory as well as code)
+● Learn about Arrow Functions before the next class
+References:
+- https://beta.reactjs.org/apis/react/createElement
+- https://www.youtube.com/watch?v=IrHmpdORLu8
