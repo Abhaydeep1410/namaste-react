@@ -1,0 +1,8 @@
+-- we can import react using cdn links directly in our html file , and use React and ReactDOM 
+-- we can create Element by using React.createElement("which element to create", "props", "value ")
+
+-- props include the id , class which we want to map with in the {} json like format 
+-- .createRoot(document.getElementById("root1")) we can render the root components root can be any parent 
+which we want to render like <div id="root">  general practise
+
+-- we can pass list in render also in place of value //refer the js file 

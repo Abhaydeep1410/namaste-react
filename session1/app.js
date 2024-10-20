@@ -11,7 +11,7 @@ root.render(heading);
 
 //     <h2></h2>
 //    </div>
-
+                                        //props 
 const heading1=React.createElement("h1",{id:"heading1"},"heading1");
 const heading2=React.createElement("h2",{id:"heading2"},"heading2");
 
