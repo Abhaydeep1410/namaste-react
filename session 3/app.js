@@ -14,7 +14,7 @@ root.render(heading);
 //     <h2></h2>
 //    </div>
 
-const heading1=React.createElement("h1",{id:"heading1"},"heading1");
+const heading1=React.createElement("h1",{id:"heading1"},"heading1 changed");
 const heading2=React.createElement("h2",{id:"heading2"},"heading2");
 
 const container=React.createElement("container",{id:"container"},[heading1,heading2]);

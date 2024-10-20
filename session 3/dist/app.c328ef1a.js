@@ -28931,7 +28931,7 @@ root.render(heading);
 
 var heading1 = _react.default.createElement("h1", {
   id: "heading1"
-}, "heading1");
+}, "heading1 changed");
 var heading2 = _react.default.createElement("h2", {
   id: "heading2"
 }, "heading2");
@@ -28965,7 +28965,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50147" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52650" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
