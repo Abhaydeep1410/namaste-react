@@ -1,0 +1,20 @@
+inside packagelock.json there are scripts , we can write our own command 
+    and then run it using npm run   ex. in scripts  "start":"parcel index.html"  --use  npm run start or npm start
+
+to remove console.log  download an external plugin npm install babel-plugin-transform-remove-console --save-dev
+    check its usage from docs and after npm install ..  to config the plugin we need to create a file .babelrc
+
+when using React.createElement we have to define keys also otherwise browser will give error as React needs keys  for recoincilation
+
+using React.createElement for complex html will complex our code so we use JSX  , its a html like syntax (not html)
+as we like attribute in jsx in camelCase  ex tab-index in html but tabIndex in JSX , class in HTML but className in JSX
+
+it is Babel who understand JSX 
+
+
+React Component 
+  1. Functional Component - New way  are like normal js functions
+  2. Class based Component - Old way
+
+
+JSX used React.createElement behind the scenes
