@@ -1,0 +1,14 @@
+Config Drivern UI : ui send by backend according to user , ex offer for UP can be different
+
+
+-- props - are like  like normal js parameter and arguments
+
+-- Virtual DOM -> representaion of actual DOM 
+why we need it ? --> for reconciliation in react ->> (Diff algorithm) that react used to diff one tree from other 
+and determines what need to change in UI  . it Doesnt rerender the whole app only render specific position
+it used key to distinguish ,use key as there are more than 2 <div> so react dont know which order they are , so key is used
+
+-- React Fiber  React16 diff algo changed to React Fiber ( new reconciliation engine)
+
+Q. why dont we use index as a key --> its a valid key 
+nokey < index key (use only if dont have option)<< unique key (best practice)
