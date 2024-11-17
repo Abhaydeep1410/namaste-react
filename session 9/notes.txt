@@ -1,0 +1,22 @@
+points to remember :-->
+        we can only use JS expression inside {} , cant use statement like if else , user ternary
+        never write useState() hook inside for or if statemnt 
+        useState() hook is used inside functional component to declare variable so dont declare above 
+        never write a functional component inside functional component because it will be created each time parent render, else we can use it by importing <>
+
+useEffect(()=>{    // if we dont pass dependency array inside useEffect will be called after each render
+                    // if we pass a empty dependency array it will be called once
+
+})
+
+
+routes -  npm i react-router-dom
+
+// we are making a SPA - SIngle Page Application 
+means it should not make a network call when reloading or going from section about to home like
+// two types of routing client side and server side (usual with anchor tag with netwrok call )  ,but we want in our 
+application client side , because all components are already presnet like about Page
+so we use {Link } from react-router-dom 
+
+
+// try to make login page using formik
