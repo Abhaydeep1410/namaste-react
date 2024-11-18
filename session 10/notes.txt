@@ -1,0 +1,7 @@
+class based Components- alternative of functional Components used in older react
+
+to understand life cyle check sequence in about.js file
+
+we can make componentDIdMount async but cant make useEffecet async --> learn the reason
+
+dont compare componentDIdMount with useEffect they are different
