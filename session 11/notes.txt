@@ -1,0 +1,11 @@
+we can create our own hook -> readability , usuability, maintainability, testability
+name start with use for a hook
+
+
+parcel is bundling all our files together into a single js file , but for a big website we dont want that
+as for single component which dont have relation with other component like bookTrain dont depend on bookHotel 
+so we want parcel not to bundel them together , so to avoid this we use lazy loading also called chunking, dynamic loading , code splitting, on demand loading, dynamic import 
+check instamart to check its ususage, in app.js we dont directly import it
+
+//point: never load component dynamically inside another component 
+
